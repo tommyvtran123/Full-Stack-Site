@@ -1,0 +1,17 @@
+This zip file contains 3 different php files that will make up the completed website. None of the extra credit has been done due to lack of time on my part but the basic counter
+along with the multi-user site functionality is all working properly. I named my database lab3 but the table is named "user" with 4 columns "userid", "username", "password", and "count" 
+like how it was recommended on the lab sheet. Im not sure if there is a different way to run the website but I ran it by putting this folder into the htdocs folder  of xampp and typing
+into my browser localhost/name of folder /name of any of the php files.
+
+register.php - should be the starting point but you can start at any of the php files and navigate to where you need. each php file will have there own html page. This is the registration
+page. User is shown a very basic registration page where they can enter their username and password. Pretty much the same as the demo code shown in class. Username is not case sensitive so a user Mike and mike cannot exist. Successfully
+checks for unique usernames and prompts the user if the username is already taken. After registering there is a button that leads to the login.
+
+login.php - displays page like register. This is where the user can log in. Successfully checks for existing user and takes them to the main page with that users count total.
+
+main.php- this is the main page after the user successfully logs in. The page displays the username and their count total. They can press the increment button to increase the count by 1.
+The screen refreshes to display the new total. There are 2 logout options one to the login screen and one to the registration.
+
+No known bugs.
+
+
